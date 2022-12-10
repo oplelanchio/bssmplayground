@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width,
+        initial-scale=1.0">
+        <title>Snake Game Page</title>
+        <link rel="stylesheet" href="/css/snake.css">
+    </head>
+    <body>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__logo"> BSSM</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="/main.html" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/intro.html" class="navbar__links">Introduction</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="/snake.html" class="navbar__links">SnakeNApple</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/register.html" class="button">Register</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/login.html" class="button">Log In</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Snake Game Section-->
+
+        <div id="gameContainer">
+            <canvas id="gameBoard" width="350" height="350"></canvas>
+            <div id="scoreText">0</div>
+            <button id="resetBtn">Reset</button>
+        </div>
+        <script src="/js/snake.js"></script>
+    </body>
+</html>
